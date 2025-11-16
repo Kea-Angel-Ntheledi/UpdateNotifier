@@ -1,0 +1,30 @@
+{
+  "name": "update-notifier",
+  "version": "1.0.0",
+  "description": "A notification platform for tracking GitHub commits",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kea-Angel-Ntheledi/UpdateNotifier.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kea-Angel-Ntheledi/UpdateNotifier/issues"
+  },
+  "homepage": "https://github.com/Kea-Angel-Ntheledi/UpdateNotifier#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "nodemailer": "^7.0.10"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
